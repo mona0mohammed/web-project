@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Espresso",
+        "image": "../images/coffee1.jpg",
+        "desc": "Rich and strong coffee",
+        "price": "$3.00"
+    },
+    {
+        "name": "Latte",
+        "image": "../images/coffee2.jpg",
+        "desc": "Smooth coffee with creamy milk",
+        "price": "$4.00"
+    },
+    {
+        "name": "Cappuccino",
+        "image": "../images/coffee3.jpg",
+        "desc": "Espresso with steamed milk foam",
+        "price": "$4.50"
+    },
+    {
+        "name": "Cold Coffee",
+        "image": "../images/coffee4.jpg",
+        "desc": "Refreshing cold coffee",
+        "price": "$4.00"
+    },
+    {
+        "name": "Chocolate Cake",
+        "image": "../images/cake.jpg",
+        "desc": "Rich Delicious chocolate cake",
+        "price": "$15.00"
+    },
+    {
+        "name": "Cheesecake Cake",
+        "image": "../images/cheesecake.jpg",
+        "desc": "Creamy and Delicious cheesecake",
+        "price": "$7.00"
+    },
+    {
+        "name": "Cookies",
+        "image": "../images/cookies.jpg",
+        "desc": "Fresh and crunchy cookies",
+        "price": "$11.50"
+    },
+    {
+        "name": "Brownie",
+        "image": "../images/brownie.jpg",
+        "desc": "Soft chocolate brownie",
+        "price": "$10.00"
+    }
+]

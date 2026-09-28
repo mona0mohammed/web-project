@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Café</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <div class="login-page">
+
+        <div class="login-card">
+
+            <div class="login-icon">
+                <i class="fa-solid fa-mug-hot"></i>
+            </div>
+
+            <h1>Welcome in Violetta Cafe </h1>
+
+            <p>Login to Café</p>
+
+
+            <form id="loginForm">
+                <!-- Username -->
+                <div class="login-field">
+                    <label for="username">Username</label>
+                    <div class="login-input">
+                        <input type="text"
+                               id="username"
+                               placeholder="Enter your username">
+                    </div>
+
+                    <small id="usernameError">
+                        Please enter your username.
+                    </small>
+
+                </div>
+
+
+                <!-- Password -->
+                <div class="login-field">
+                    <label for="password">Password</label>
+                    <div class="login-input">
+                        <input type="password"
+                               id="password"
+                               placeholder="Enter your password">
+                    </div>
+
+                    <small id="passwordError">
+                        Please enter your password.
+                    </small>
+
+                </div>
+
+
+                <!-- Login Button -->
+                <button type="submit" class="login-button">
+                    <i class="fa-solid fa-right-to-bracket"></i>
+                   Login 
+                </button>
+
+                <div class="create-account">
+                    <p>
+                        Don't have an account?
+                        <a href="#" id="showSignup">
+                            Create Account
+                        </a>
+                    </p>
+                
+                </div>
+                
+                
+                <div id="signupForm" style="display:none;">
+                
+                
+                <div class="login-field">
+                
+                <label>New Username</label>
+                
+                <div class="login-input"> 
+                <input type="text" id="newUsername"
+                placeholder="Enter username"> 
+                </div>
+                
+                <small id="newUsernameError">
+                Username is required.
+                </small>
+                
+                </div>
+                
+                
+                
+                <div class="login-field">
+                
+                 <label>Email</label>
+                
+                 <div class="login-input">                
+                      <input type="email" id="email"
+                      placeholder="Enter email"> 
+                 </div>
+                
+                 <small id="emailError">
+                 Enter valid email.
+                 </small>
+                
+                </div>
+                
+                
+                
+                <div class="login-field">
+                
+                <label>Password</label>
+                
+                <div class="login-input">                
+                <input type="password" id="newPassword"
+                placeholder="Create password">
+                
+                </div>
+                
+                <small id="newPasswordError">
+                Password is required.
+                </small>
+                
+                </div>
+                
+                            
+                <button type="button"
+                class="login-button"
+                id="createBtn">
+                
+                Create Account
+                
+                </button>
+                
+                
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="../js/script.js"></script>
+</body>
+
+</html>

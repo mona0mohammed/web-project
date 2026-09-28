@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Violetta Café - Menu</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/toastr.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            <i class="fa-solid fa-mug-hot"></i> Violetta Café
+        </div>
+
+        <nav>
+            <a href="../index.html"><i class="fa-solid fa-home"></i> Home</a>
+            <a href="menu.html"><i class="fa-solid fa-bars"></i> Menu</a>
+            <a href="about.html"><i class="fa-regular  fa-user"></i>About</a>
+            <a href="gallery.html"><i class="fa-solid fa-images"></i>Gallery</a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i>Contact</a>
+            <a href="login.html"><i class="fas fa-sign-in-alt"></i>Login</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main -->
+    <main>
+
+        <section class="menu-header">
+
+            <h1>Our Menu</h1>
+
+            <p>
+                Discover our delicious coffee, drinks and desserts.
+            </p>
+
+        </section>
+
+
+        <!-- Coffee Menu -->
+        <section class="menu-section">
+
+            <h2>☕ Coffee</h2>
+
+            <div class="menu-grid">
+
+                <article class="menu-item">
+                    <img src="../images/coffee1.jpg" alt="Espresso">
+
+                    <div>
+                        <h3>Espresso</h3>
+                        <span>$3.00</span>
+                        <button class="details-btn" data-name="Espresso" data-image="../images/coffee1.jpg" data-desc="Rich and strong coffee" data-price="$3.00">View Details</button>
+                    </div>
+                </article>
+
+
+                <article class="menu-item">
+                    <img src="../images/coffee2.jpg" alt="Latte">
+
+                    <div>
+                        <h3>Latte</h3>
+                        <span>$4.00</span>
+                        <button class="details-btn" data-name="Latte" data-image="../images/coffee2.jpg" data-desc="Smooth coffee with creamy milk" data-price="$4.00">View Details</button>
+
+                    </div>
+                </article>
+
+
+                <article class="menu-item">
+                    <img src="../images/coffee3.jpg" alt="Cappuccino">
+
+                    <div>
+                        <h3>Cappuccino</h3>
+                        <span>$4.50</span>
+                        <button class="details-btn" data-name="Cappuccino" data-image="../images/coffee3.jpg" data-desc="Espresso with steamed milk foam" data-price="$4.50">View Details</button>
+
+                    </div>
+                </article>
+
+
+                <article class="menu-item">
+                    <img src="../images/coffee4.jpg" alt="Cold Brew">
+
+                    <div>
+                        <h3>Cold Coffee</h3>
+                        <span>$4.00</span>
+                        <button class="details-btn" data-name="Cold Coffee" data-image="../images/coffee4.jpg" data-desc="Refreshing cold coffee" data-price="$4.00">View Details</button>
+
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+      <!-- Desserts -->
+<section class="desserts-section">
+
+    <h2>🍰 Desserts</h2>
+
+    <div class="desserts-grid">
+
+        <article class="dessert-card">
+            <img src="../images/cake.jpg" alt="Chocolate Cake">
+            <h3>Chocolate Cake</h3>
+            <span>$15.00 <br></span>
+            <button class="details-btn" data-name="Chocolate Cake" data-image="../images/cake.jpg" data-desc="Rich Delicious chocolate cake" data-price="$15.00">View Details</button>
+        </article>
+
+
+        <article class="dessert-card">
+            <img src="../images/cheesecake.jpg" alt="Cheesecake">
+            <h3>Cheesecake</h3>
+            <span>$7.00 <br></span>
+            <button class="details-btn" data-name="Cheesecake Cake" data-image="../images/cheesecake.jpg" data-desc="Creamy and Delicious cheesecake" data-price="$7.00">View Details</button>
+        </article>
+
+
+        <article class="dessert-card">
+            <img src="../images/cookies.jpg" alt="Cookies">
+            <h3>Cookies</h3>
+            <span>$11.50 <br></span>
+            <button class="details-btn" data-name="Cookies" data-image="../images/cookies.jpg" data-desc="Fresh and crunchy cookies" data-price="$11.50">View Details</button>
+        </article>
+
+
+        <article class="dessert-card">
+            <img src="../images/brownie.jpg" alt="Brownie">
+            <h3>Brownie</h3>
+            <span>$10.00 <br></span>
+            <button class="details-btn" data-name="Brownie" data-image="../images/brownie.jpg" data-desc="Soft chocolate brownie" data-price="$10.00">View Details</button>
+        </article>
+
+    </div>
+
+</section>
+
+
+        <!-- Menu Table -->
+        <section class="menu-table-section">
+
+            <h2>Popular Drinks</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Drink</th>
+                        <th>Size</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Espresso</td>
+                        <td>Small</td>
+                        <td>$3.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Latte</td>
+                        <td>Medium</td>
+                        <td>$4.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cappuccino</td>
+                        <td>Medium</td>
+                        <td>$4.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cold Brew</td>
+                        <td>Large</td>
+                        <td>$5.00</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+                <section class="menu-table-section">
+
+            <h2>Popular Desserts</h2>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Dessert</th>
+                        <th>Size</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Chocolate Cake</td>
+                        <td>large</td>
+                        <td>$15.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cheesecake</td>
+                        <td>Medium</td>
+                        <td>$7.00</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cookies</td>
+                        <td>Medium</td>
+                        <td>$11.50</td>
+                    </tr>
+
+                    <tr>
+                        <td>Brownie</td>
+                        <td>Large</td>
+                        <td>$10.00</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>☕ Violetta Café</h2>
+        <p>© 2026 Violetta Café. All Rights Reserved.</p>
+
+    </footer>
+<!-- Modal -->
+<div class="modal fade" id="productModal" tabindex="-1">
+
+    <div class="modal-dialog modal-dialog-centered">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Details
+                </h5>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+
+            <div class="modal-body" id="modalContent">
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="../js/jquery-3.1.1.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/toastr.min.js"></script>
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>
